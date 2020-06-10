@@ -1,0 +1,461 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: 'Nunito', sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+.h {
+	height: 130px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.h h3 {
+	font-size: 30px;
+	font-weight: 300;
+	padding-bottom: 2px;
+	border-bottom: 2px solid black;
+} 
+
+/* --- HEADER ---*/
+header {
+	width: 100%;
+	height: 120px;
+
+	background: #EDEDED;
+	font-size: 18px;
+}
+
+nav {
+	height: 100%;
+}
+
+header .main_nav {
+	height: 50px;
+	background-color: #C1C1C1;
+	/*display: flex;*/
+	/*align-items: center;
+	justify-content: center;*/
+}
+
+.main_nav ul a {
+	/*display: block;*/
+	line-height: 46px;
+	border: 2px solid #C1C1C1;
+}
+
+header .main_nav ul {
+	width: 66%;
+	min-width: 1050px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+	/*font-weight: 300;*/
+}
+
+nav .main_nav ul li {
+	list-style-type: none;
+	align-self: center;
+	/*padding: 0 15px;*/
+	/*margin: 0 50%;*/
+	/*font-weight: 300;*/
+}
+
+.main_nav ul a:hover {
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+}
+
+/*.main_nav ul a {
+	margin: 0 5%;
+}*/
+
+.left_nav a img#logo {
+	padding: 15px;
+	width: 40px;
+	height: 40px;
+}
+
+.top_nav {
+	width: 66%;
+	min-width: 1050px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.left_nav a {
+	display: flex;
+	align-items: center;
+	font-size: 24px;
+	font-family: 'Nunito', sans-serif;
+}
+
+.center_nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 55%;
+}
+
+.center_nav a {
+	font-weight: bold;
+}
+
+.right_nav img {
+	width: 35px;
+	height: 35px;
+	padding: 7px;
+}
+	
+/*.right_nav {
+	position: absolute;
+	right: 90px;
+}*/
+
+/*--- BODY ---*/
+.body{
+	background: url(bg/bgleft_opacity.png) left/18% repeat-y, 
+				url(bg/bgright_opacity.png) right/18% repeat-y;
+	/*height: 100%;*/
+}
+
+#body, #main {
+	height: 2985px;
+}
+
+#body_catalog, #main_catalog {
+	height: 980px;
+}
+
+#body_el_guitars, #main_el_guitars {
+	height: 980px;
+}
+
+.main {
+	width: 66%;
+	/*width: 1282px;*/
+
+	min-width: 1050px;
+
+	/*height: 2985px;*/
+	/*height: 100%;*/
+	margin: 0 auto;
+	background-color: #fff;
+}
+
+/*--- DESCRIBE ---*/
+.describe {
+	height: 880px;
+	min-height: 30%;
+	background-color: #DEDEDE;
+	background-image: url(bg/bg_describe.png);
+	display: flex;
+	justify-content: space-around;
+}
+
+.describe img {
+	max-width: 50%;
+	align-self: center;
+}
+
+.describe p {
+	font-size: 70px;
+	line-height: 84px;
+	font-weight: 300;
+	width: 450px;
+	margin-left: 50px;
+	align-self: center;
+}
+
+/*--- SLIDER ---*/
+.slider {
+	height: 560px;
+	/*background-color: #fff;*/
+}
+
+/*--- BRANDS ---*/
+.brands {
+	height: 520px;
+	/*background-color: #fff;*/
+} 
+
+.brands_line1, .brands_line2 {
+	height: 35%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.brands_line1 img, .brands_line2 img {
+	max-width: 19%;
+	padding-left: 1%;
+}
+
+.brands_line2 img:first-child {
+	/*padding-left: 60px;*/
+	padding-left: 4.734848484%;
+	max-width: 14%;
+}
+
+.brands_line2 img:nth-child(2) {
+	/*padding-left: 20px;*/
+	padding-left: 1.578282828%;
+}
+
+/*--- CATEGORIES ---*/
+.categories {
+	background-color: #EBEBEB;
+	height: 920px;
+	box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+	margin-top: 50px;
+}
+
+.category_menu {
+	height: 85%;
+	width: 100%;
+}
+
+.cm_line1, .cm_line2 {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}
+
+.categories_style {
+	width: 240px;
+	height: 340px;
+	margin: 1%;
+	border-radius: 15px 15px 0px 0px;
+	background-color: #fff;
+	position: relative;
+}
+
+.categories_style a {
+	text-align: center;
+	line-height: 50px;
+	display: block;
+	height: 50px;
+	width: 100%;
+	background-color: #FF4545;
+	position: absolute;
+	bottom: 0;
+	color: #fff;
+	font-size: 18px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.categories_style img {
+	width: 240px;
+	border-radius: 15px 15px 0px 0px;
+}
+
+/*--- FOOTER ---*/
+
+footer {
+	height: 296px;
+	width: 100%;
+	background-color: #1D1D1D;
+	display: flex;
+	justify-content: center;
+}
+
+.footer {
+	width: 66%;
+	height: 90%;
+	-ms-align-self: center;
+	align-self: center;
+	min-width: 1050px;
+
+	position: relative;
+}
+
+.email_rights a{
+	color: #DDD;
+	font-size: 19px;
+
+	position: absolute;
+	top: 81px;
+}
+
+.email_rights p {
+	color: #7A7A7A;
+	font-size: 15px;
+	width: 350px;
+
+	position: absolute;
+	top: 148px;
+}
+
+
+.footer_menu {
+	position: absolute;
+	top: 34px;
+	left: 500px;
+}
+
+.footer_menu ul li{
+	font-size: 15px;
+	line-height: 25px;
+	color: #DDD;
+	list-style-type: none;
+}
+
+.contacts {
+	position: absolute;
+	top: 95px;
+	left: 750px;
+}
+
+.contacts p {
+	font-size: 15px;
+	color: #DDD;
+	margin-bottom: 20px;
+}
+
+.contacts a {
+	font-size: 17px;
+	color: #DDD;
+	font-weight: bold;
+}
+
+/*--- GUITARS ---*/
+
+/*Aside*/
+#main_el_guitars {
+	display: flex;
+}
+
+#main_el_guitars aside {
+	width: 220px;
+	min-width: 184,2px;
+	margin-right: 20px;
+}
+
+#main_el_guitars aside > a {
+	display: flex;
+	align-items: center;
+	font-size: 17px;
+	font-weight: 100;
+	padding: 10px;
+	margin-top: 26px;
+	width: 200px;
+	background-color: #EDEDED;
+	box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.07);
+}
+
+#main_el_guitars aside a img {
+	width: 35px;
+	margin-right: 25px;
+}
+
+.aside_brands {
+	width: 200px;
+	height: 280px;
+	padding: 10px;
+	margin-top: 26px;
+
+	background-color: #EDEDED;
+	box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.07);
+}
+
+.aside_brands h3 {
+	text-align: center;
+	margin: 10px 0px 20px 0;
+}
+
+.aside_brands label {
+	display: block;
+	margin: 15px 0px 10px 20px;
+	font-size: 16px;
+	font-weight: 100;
+}
+
+.aside_brands input, .aside_brands a {
+	margin-right: 10px;
+}
+
+.aside_brands a {
+	display: block;
+	width: 96px;
+	margin-left: 20px;
+	line-height: 17px;
+	font-weight: 100;
+	color: blue;
+	border-bottom: 1px solid blue;
+}
+
+.shop {
+	margin-top: 26px;
+}
+
+.quick_menu {
+	float: right; 
+}
+
+.shop img {
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.quick_menu ul li {
+	float: left;
+	list-style-type: none;
+	margin: 0 10px 0 30px;
+	font-weight: 100;
+}
+
+#in_stock {  /*В наличии*/
+	margin-right: 7px;
+}
+
+.products {
+	width: 100%;
+	margin-top: 40px;
+}
+
+.prod {
+	background-color: #EDEDED;
+	box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.07);
+	width: 250px;
+	height: 400px;
+	margin: 0 20px;
+	display: flex;
+	flex-direction: column-reverse;
+	justify-content: flex-end;
+}
+
+.prod_img {
+	width: 200px;
+	height: 250px;
+	-ms-align-self: center;
+	align-self: center;
+	display: flex;
+	justify-content: center;
+}
+
+.prod_img img {
+	height: 100%;
+	width: auto;
+}
+
+.prod_line1 {
+	display: flex;
+	justify-content: space-around;
+}
+
+
+
+
+
+
+
